@@ -10,8 +10,13 @@ require('babel/register')({
     ignore: false
 });
 
+// write below
+var data = [
+
+];
+
 app.use('/', function(req, res) {
-    res.render('index', '');
+    res.render('index', {data: data});
 });
 
 app.listen(app.get('port'), function() {});
