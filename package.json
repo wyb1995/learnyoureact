@@ -1,7 +1,6 @@
 {
   "name": "learnyoureact",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,15 @@
     "express-react-views": "^0.9.0",
     "react": "^15.3.0",
     "react-dom": "^15.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyb1995/learnyoureact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wyb1995/learnyoureact/issues"
+  },
+  "homepage": "https://github.com/wyb1995/learnyoureact#readme",
+  "description": ""
 }
